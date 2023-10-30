@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 150px 75px;
+  background-color: #ebebeb;
+}
+
+.container {
+  border: 1px solid rgb(202, 202, 202);
+  background-color: #ffffff;
+  height: stretch;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container > div {
+  flex: 1;
+}
+
+header {
+  border: 1px solid rgb(202, 202, 202);
+  background: rgb(0,42,60);
+  background: (0deg, rgba(0,42,60,1) 0%, rgba(255,253,249,1) 100%);
+  width: stretch;
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+.header > div {
+  flex: 1;
+}
+
+.titleContent {
+  border-right: 1px solid rgb(202, 202, 202);
+  flex-basis: 75%;
+
+}
+
+.mainBody {
+  border: 1px solid rgb(202, 202, 202);
+  background-color: #ffff;
+  flex-basis: 75%;
+  padding: 15px
+}
